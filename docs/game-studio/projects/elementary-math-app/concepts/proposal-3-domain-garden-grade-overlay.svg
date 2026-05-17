@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Proposal 3 - Domain Garden with Grade Overlay</title>
+  <desc id="desc">A domain-organized garden where each plant spans multiple grade layers and a grade overlay shows expected coverage.</desc>
+  <rect width="1400" height="900" fill="#eef7fb"/>
+  <rect x="40" y="40" width="1320" height="820" rx="28" fill="#fbfeff" stroke="#c7dce6" stroke-width="3"/>
+  <text x="80" y="95" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#234c63">Proposal 3: Domain Garden + Grade Overlay</text>
+  <text x="80" y="130" font-family="Arial, sans-serif" font-size="18" fill="#587485">Plants reflect durable skill families. Grade expectations appear as overlays on top of the same underlying garden.</text>
+
+  <rect x="70" y="170" width="860" height="635" rx="24" fill="#e8f7f6" stroke="#add5d1"/>
+  <text x="100" y="212" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#234c63">Unified Domain Garden</text>
+
+  <rect x="100" y="250" width="235" height="230" rx="22" fill="#f4fffe" stroke="#bcdedb"/>
+  <text x="122" y="286" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#245d57">Numbers</text>
+  <circle cx="218" cy="375" r="52" fill="#89d3b8"/>
+  <rect x="211" y="400" width="14" height="44" rx="7" fill="#4b9278"/>
+  <text x="130" y="446" font-family="Arial, sans-serif" font-size="16" fill="#4a6b67">Grade layers:</text>
+  <circle cx="155" cy="466" r="8" fill="#7dc74a"/>
+  <text x="170" y="472" font-family="Arial, sans-serif" font-size="15" fill="#4a6b67">G1 done</text>
+  <circle cx="245" cy="466" r="8" fill="#f0c65a"/>
+  <text x="260" y="472" font-family="Arial, sans-serif" font-size="15" fill="#4a6b67">G2 active</text>
+
+  <rect x="380" y="250" width="235" height="230" rx="22" fill="#f4fffe" stroke="#bcdedb"/>
+  <text x="402" y="286" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#245d57">Operations</text>
+  <circle cx="498" cy="375" r="56" fill="#7fdf8f"/>
+  <rect x="491" y="402" width="14" height="46" rx="7" fill="#4b9278"/>
+  <text x="410" y="446" font-family="Arial, sans-serif" font-size="16" fill="#4a6b67">Grade layers:</text>
+  <circle cx="435" cy="466" r="8" fill="#7dc74a"/>
+  <text x="450" y="472" font-family="Arial, sans-serif" font-size="15" fill="#4a6b67">G1 done</text>
+  <circle cx="525" cy="466" r="8" fill="#f0c65a"/>
+  <text x="540" y="472" font-family="Arial, sans-serif" font-size="15" fill="#4a6b67">G2 active</text>
+
+  <rect x="660" y="250" width="235" height="230" rx="22" fill="#f4fffe" stroke="#bcdedb"/>
+  <text x="682" y="286" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#245d57">Geometry</text>
+  <circle cx="778" cy="375" r="44" fill="#9cd9ec"/>
+  <rect x="771" y="400" width="14" height="40" rx="7" fill="#4b9278"/>
+  <text x="690" y="446" font-family="Arial, sans-serif" font-size="16" fill="#4a6b67">Grade layers:</text>
+  <circle cx="715" cy="466" r="8" fill="#cfd8dd"/>
+  <text x="730" y="472" font-family="Arial, sans-serif" font-size="15" fill="#4a6b67">G1 partial</text>
+  <circle cx="820" cy="466" r="8" fill="#f0c65a"/>
+  <text x="835" y="472" font-family="Arial, sans-serif" font-size="15" fill="#4a6b67">G2 active</text>
+
+  <rect x="100" y="525" width="795" height="235" rx="22" fill="#f4fffe" stroke="#bcdedb"/>
+  <text x="126" y="560" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#245d57">How One Plant Spans Multiple Grades</text>
+  <rect x="130" y="590" width="160" height="90" rx="16" fill="#ffffff" stroke="#d7e7e5"/>
+  <text x="154" y="625" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#245d57">Grade 1</text>
+  <text x="154" y="654" font-family="Arial, sans-serif" font-size="15" fill="#587485">basic facts</text>
+  <rect x="315" y="590" width="160" height="90" rx="16" fill="#ffffff" stroke="#d7e7e5"/>
+  <text x="339" y="625" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#245d57">Grade 2</text>
+  <text x="339" y="654" font-family="Arial, sans-serif" font-size="15" fill="#587485">larger numbers</text>
+  <rect x="500" y="590" width="160" height="90" rx="16" fill="#ffffff" stroke="#d7e7e5"/>
+  <text x="524" y="625" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#245d57">Grade 3</text>
+  <text x="524" y="654" font-family="Arial, sans-serif" font-size="15" fill="#587485">review or stretch</text>
+  <path d="M290 635 L315 635" stroke="#8ab9a7" stroke-width="6" stroke-linecap="round"/>
+  <path d="M475 635 L500 635" stroke="#8ab9a7" stroke-width="6" stroke-linecap="round"/>
+
+  <rect x="965" y="170" width="355" height="635" rx="24" fill="#fff8f2" stroke="#ead6c4"/>
+  <text x="995" y="212" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#7a4f36">Grade Overlay</text>
+  <text x="995" y="242" font-family="Arial, sans-serif" font-size="17" fill="#8c6a57">A filter that answers: how solid is Grade 2 overall?</text>
+
+  <rect x="995" y="280" width="290" height="120" rx="18" fill="#fffdfb" stroke="#eadfd6"/>
+  <text x="1020" y="318" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#7a4f36">Viewing: Grade 2</text>
+  <rect x="1020" y="338" width="235" height="18" rx="9" fill="#f0e3d7"/>
+  <rect x="1020" y="338" width="176" height="18" rx="9" fill="#7fcd7b"/>
+  <text x="1020" y="382" font-family="Arial, sans-serif" font-size="16" fill="#8c6a57">63% of Grade 2 expectations are solid</text>
+
+  <rect x="995" y="430" width="290" height="290" rx="18" fill="#fffdfb" stroke="#eadfd6"/>
+  <text x="1020" y="467" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#7a4f36">Current Grade 2 Signals</text>
+  <text x="1020" y="510" font-family="Arial, sans-serif" font-size="17" fill="#60493d">Operations plant: strong</text>
+  <text x="1020" y="550" font-family="Arial, sans-serif" font-size="17" fill="#60493d">Numbers plant: strong</text>
+  <text x="1020" y="590" font-family="Arial, sans-serif" font-size="17" fill="#60493d">Geometry plant: partial</text>
+  <text x="1020" y="630" font-family="Arial, sans-serif" font-size="17" fill="#60493d">Above-grade practice: visible, but separate</text>
+  <text x="1020" y="670" font-family="Arial, sans-serif" font-size="17" fill="#60493d">Below-grade review: allowed and counted</text>
+
+  <text x="80" y="840" font-family="Arial, sans-serif" font-size="18" fill="#587485">Strength: best fit for differentiated learning. Risk: the most abstract concept to explain.</text>
+</svg>

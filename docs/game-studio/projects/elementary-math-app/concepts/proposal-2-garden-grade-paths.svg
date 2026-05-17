@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Proposal 2 - Unified Garden with Grade Paths</title>
+  <desc id="desc">A unified garden with visible grade paths that show completion for the current grade while still allowing exploration.</desc>
+  <rect width="1400" height="900" fill="#f3f0ff"/>
+  <rect x="40" y="40" width="1320" height="820" rx="28" fill="#fbf9ff" stroke="#d2cae9" stroke-width="3"/>
+  <text x="80" y="95" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#42305f">Proposal 2: Unified Garden With Grade Paths</text>
+  <text x="80" y="130" font-family="Arial, sans-serif" font-size="18" fill="#6f6688">One world, with visible trails for each grade. The current grade path is highlighted, but other paths stay open.</text>
+
+  <rect x="75" y="170" width="1250" height="620" rx="26" fill="#eef2ff" stroke="#bfc9ea"/>
+  <text x="105" y="212" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#42305f">Garden Map</text>
+
+  <path d="M120 660 C240 520 330 450 430 430 C560 405 610 310 735 305 C900 298 1010 410 1180 270" fill="none" stroke="#f0b84c" stroke-width="24" stroke-linecap="round" opacity="0.85"/>
+  <path d="M110 560 C240 430 310 370 455 365 C590 360 690 470 865 450 C980 438 1100 355 1230 420" fill="none" stroke="#b6c4eb" stroke-width="18" stroke-linecap="round" opacity="0.9"/>
+  <path d="M140 730 C260 690 350 655 480 670 C645 690 785 690 970 625 C1070 590 1155 530 1240 545" fill="none" stroke="#c9d39f" stroke-width="18" stroke-linecap="round" opacity="0.9"/>
+
+  <text x="1030" y="255" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#8d6210">Grade 2 Path</text>
+  <text x="1065" y="400" font-family="Arial, sans-serif" font-size="18" fill="#5d6786">Grade 3 Path</text>
+  <text x="1115" y="525" font-family="Arial, sans-serif" font-size="18" fill="#667348">Grade 1 Path</text>
+
+  <circle cx="290" cy="528" r="52" fill="#9fd67e" stroke="#6ba155" stroke-width="4"/>
+  <circle cx="278" cy="518" r="4" fill="#283421"/>
+  <circle cx="302" cy="518" r="4" fill="#283421"/>
+  <path d="M276 542 Q290 553 304 542" fill="none" stroke="#283421" stroke-width="3" stroke-linecap="round"/>
+  <text x="230" y="605" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#3d5a31">Addition</text>
+
+  <circle cx="570" cy="410" r="46" fill="#8ccf92" stroke="#5d9b68" stroke-width="4"/>
+  <path d="M550 418 Q570 402 590 418" fill="none" stroke="#283421" stroke-width="3" stroke-linecap="round"/>
+  <text x="505" y="488" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#3d5a31">Subtraction</text>
+
+  <circle cx="865" cy="370" r="44" fill="#b2de86" stroke="#83b05d" stroke-width="4"/>
+  <path d="M847 378 Q865 363 883 378" fill="none" stroke="#283421" stroke-width="3" stroke-linecap="round"/>
+  <text x="814" y="447" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#3d5a31">Geometry</text>
+
+  <circle cx="1015" cy="285" r="38" fill="#9bc8f5" stroke="#5b86bf" stroke-width="4"/>
+  <path d="M999 293 Q1015 278 1031 293" fill="none" stroke="#23324b" stroke-width="3" stroke-linecap="round"/>
+  <text x="953" y="352" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#38527b">Stretch Zone</text>
+
+  <rect x="105" y="245" width="240" height="100" rx="18" fill="#fff9e8" stroke="#ead6a1"/>
+  <text x="128" y="283" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#8d6210">Current Focus</text>
+  <text x="128" y="315" font-family="Arial, sans-serif" font-size="17" fill="#6f684b">Follow the Grade 2 path</text>
+
+  <rect x="1065" y="600" width="215" height="135" rx="18" fill="#fff9e8" stroke="#ead6a1"/>
+  <text x="1090" y="636" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#8d6210">Exploration</text>
+  <text x="1090" y="670" font-family="Arial, sans-serif" font-size="16" fill="#6f684b">Other grade paths are open.</text>
+  <text x="1090" y="695" font-family="Arial, sans-serif" font-size="16" fill="#6f684b">No lock on higher or lower skills.</text>
+
+  <rect x="75" y="810" width="1250" height="35" rx="16" fill="#f4efe2"/>
+  <circle cx="100" cy="828" r="8" fill="#f0b84c"/>
+  <text x="118" y="834" font-family="Arial, sans-serif" font-size="16" fill="#665d4b">Highlighted current grade path</text>
+  <circle cx="380" cy="828" r="8" fill="#b6c4eb"/>
+  <text x="398" y="834" font-family="Arial, sans-serif" font-size="16" fill="#665d4b">Other accessible grade paths</text>
+  <circle cx="652" cy="828" r="8" fill="#9fd67e"/>
+  <text x="670" y="834" font-family="Arial, sans-serif" font-size="16" fill="#665d4b">Plants along the path</text>
+  <text x="935" y="834" font-family="Arial, sans-serif" font-size="16" fill="#665d4b">Strength: visible grade structure. Risk: can still feel grade-led.</text>
+</svg>
