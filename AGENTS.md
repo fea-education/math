@@ -12,3 +12,6 @@ Apply these rules whenever creating or editing repository documentation files.
 
 - Every `.md` or `.mdx` file must include a frontmatter block with at least a `title`.
 - Keep documentation titles brief and compact.
+
+## Local Tooling
+- Use the repo-local game-studio script symlink at `.agents/skills/game-studio/scripts/game-studio`.
