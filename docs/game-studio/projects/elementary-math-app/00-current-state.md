@@ -12,7 +12,7 @@ updated_at: 2026-05-22
 <!-- The current workflow phase. -->
 <!-- Options: 01-idea-intake | 02-vision-definition | 03-concept-stress-test | 04-pre-production-design | 05-prototype-planning | 06-production-planning | 07-change-control | 08-implementation-support -->
 
-Phase: `05-prototype-planning`
+Phase: `06-production-planning`
 
 ## Latest Approved Artefacts
 
@@ -24,7 +24,7 @@ Phase: `05-prototype-planning`
 | `02-vision-brief.md` | approved | yes |
 | `03-concept-stress-test.md` | approved-with-conditions | yes |
 | `04-design-package.md` | approved | yes |
-| `05-prototype-plan.md` | — | — |
+| `05-prototype-plan.md` | approved | yes |
 | `06-production-plan.md` | — | — |
 
 ## Blocking Questions
@@ -32,7 +32,7 @@ Phase: `05-prototype-planning`
 <!-- Questions that must be answered before the current phase can advance. -->
 <!-- If none, write "none". -->
 
-1. Which targeted prototypes should be included in Phase 05 to validate the approved conditions and viability risks?
+1. What production plan structure will keep implementation sequenced, dependency-aware, and aligned with the approved prototype strategy?
 
 ## Accepted Risks
 
@@ -52,10 +52,10 @@ Phase: `05-prototype-planning`
 
 <!-- The single most important decision the human needs to make right now. -->
 
-Draft `05-prototype-plan.md` so the highest-risk unknowns are tested in the smallest possible set of focused prototypes.
+Draft `06-production-plan.md` so implementation can be sequenced around the approved prototype and planning decisions.
 
 ## Recommended Next Step
 
 <!-- What the orchestrator recommends doing next. -->
 
-Define the Phase 05 prototype plan with a small set of targeted experiments for sleeping-state emotional tuning, content-generation viability, and art-production sustainability.
+Move into Production Planning by defining milestones, slice order, and dependency-aware sequencing for the Grade 2-first product.
