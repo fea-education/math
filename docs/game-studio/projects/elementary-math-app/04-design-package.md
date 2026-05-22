@@ -173,10 +173,10 @@ Key readability requirements:
 
 | Risk ID | Description | Mitigation |
 |---|---|---|
+| RISK-007 | The project may be non-viable if curriculum-aligned content cannot be produced in a meaningfully automated or semi-automated way. | Use Phase 05 to run a dedicated content-generation prototype and harden the metadata model based on the results. |
 | RISK-005 | The narrow Grade 2 slice may still feel repetitive if mission variation is too shallow. | Keep the first slice narrow but require variation across review mix, representations, and challenge patterns. |
 | RISK-006 | Sleeping plants may feel emotionally wrong if they imply neglect or loss. | Prototype several sleeping-state presentations before locking the loop. |
 | RISK-004 | Adult reassurance may overload the product if it leaks too much complexity into the child flow. | Keep adult-facing progress in a separate, tightly bounded summary view. |
-| RISK-007 | The project may be non-viable if curriculum-aligned content cannot be produced in a meaningfully automated or semi-automated way. | Use Phase 05 to run a dedicated content-generation prototype and harden the metadata model based on the results. |
 
 ## Open Questions
 
