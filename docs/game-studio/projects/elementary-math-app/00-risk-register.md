@@ -132,4 +132,21 @@ Track all known risks across the full project lifecycle. Every open question tha
 
 ---
 
+### RISK-007
+
+| Field | Value |
+|---|---|
+| **Description** | The project may not be economically or operationally viable if curriculum-aligned content has to be authored almost entirely by hand and cannot be produced or expanded in a meaningfully automated or semi-automated way. |
+| **Category** | delivery |
+| **Phase Introduced** | 04-pre-production-design |
+| **Status** | accepted |
+| **Severity** | critical |
+| **Confidence** | high |
+| **Mitigation** | Use Phase 05 to run a dedicated content-generation prototype that tests automated or semi-automated authoring against curriculum alignment, metadata consistency, and review quality; harden the metadata model based on the results. |
+| **Owner Role** | engineering-lead |
+| **Blocks Progression** | no |
+| **Updated** | 2026-05-22 |
+
+---
+
 <!-- Duplicate the block above for each additional risk. -->

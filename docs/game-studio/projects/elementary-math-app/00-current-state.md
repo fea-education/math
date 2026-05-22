@@ -23,7 +23,7 @@ Phase: `04-pre-production-design`
 | `01-idea-brief.md` | approved | yes |
 | `02-vision-brief.md` | approved | yes |
 | `03-concept-stress-test.md` | approved-with-conditions | yes |
-| `04-design-package.md` | — | — |
+| `04-design-package.md` | draft | no |
 | `05-prototype-plan.md` | — | — |
 | `06-production-plan.md` | — | — |
 
@@ -32,7 +32,7 @@ Phase: `04-pre-production-design`
 <!-- Questions that must be answered before the current phase can advance. -->
 <!-- If none, write "none". -->
 
-1. What should the compact Grade 2 design package include so the project stays within the approved conditions?
+1. Does the drafted design package now capture the critical requirement to validate automated or semi-automated content production in Phase 05?
 
 ## Accepted Risks
 
@@ -45,15 +45,16 @@ Phase: `04-pre-production-design`
 4. RISK-004 - Combining child simplicity with parent reassurance could overload the early product if not separated clearly.
 5. RISK-005 - Even Grade 2-only content may become repetitive too quickly if the slice lacks enough real variation.
 6. RISK-006 - The sleeping mechanic may fail if it feels either too flat or too pressuring.
+7. RISK-007 - The project may be non-viable if content production cannot be automated or semi-automated enough to scale.
 
 ## Next Decision Required
 
 <!-- The single most important decision the human needs to make right now. -->
 
-Draft `04-design-package.md` so the core loop, mechanics, system interactions, progression, and content scope all respect the approved proceed-with-conditions verdict.
+Review `04-design-package.md` and decide whether it is the right compact design shape for the Grade 2-first release, including the requirement for a future content-generation prototype.
 
 ## Recommended Next Step
 
 <!-- What the orchestrator recommends doing next. -->
 
-Move into Pre-Production Design with a narrow, risk-aware design package focused on varied Grade 2 content, low-pressure motivation, and a clearly bounded adult-facing progress layer.
+Review and refine the drafted design package, especially the first content slice, the plant-state loop, the limited adult-facing progress layer, and the requirement for a future content-generation prototype, before approval.
