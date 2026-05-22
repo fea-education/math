@@ -2,7 +2,7 @@
 title: Risk Register
 status: draft
 project: elementary-math-app
-updated_at: 2026-05-17
+updated_at: 2026-05-18
 ---
 
 # Risk Register - Elementary Math App
@@ -34,13 +34,13 @@ Track all known risks across the full project lifecycle. Every open question tha
 
 | Field | Value |
 |---|---|
-| **Description** | If the product expands beyond Grade 3 too early, Berlin-aligned curriculum and content scope may become too large for a solo builder on the stated budget. |
+| **Description** | If the product expands beyond Grade 2 too early, Berlin-aligned curriculum and content scope may become too large for a solo builder on the stated budget. |
 | **Category** | scope |
 | **Phase Introduced** | 01-idea-intake |
 | **Status** | accepted |
 | **Severity** | medium |
 | **Confidence** | high |
-| **Mitigation** | Keep the first release strictly limited to Grade 3. Treat expansion to other grades as a later product decision after the Grade 3 slice is complete. |
+| **Mitigation** | Keep the first release strictly limited to Grade 2. Treat expansion to other grades as a later product decision after the Grade 2 slice is complete. |
 | **Owner Role** | producer |
 | **Blocks Progression** | no |
 | **Updated** | 2026-05-17 |
@@ -78,6 +78,23 @@ Track all known risks across the full project lifecycle. Every open question tha
 | **Owner Role** | creative-product-lead |
 | **Blocks Progression** | no |
 | **Updated** | 2026-05-17 |
+
+---
+
+### RISK-004
+
+| Field | Value |
+|---|---|
+| **Description** | The product may become confusing or overloaded if it tries to serve a very simple child-facing garden experience and a detailed parent-facing curriculum reassurance layer in the same early release without clear separation. |
+| **Category** | design |
+| **Phase Introduced** | 02-vision-definition |
+| **Status** | accepted |
+| **Severity** | medium |
+| **Confidence** | medium |
+| **Mitigation** | Keep the child view motivational and simple, and treat parent reassurance as a clearly separated secondary view with tightly limited scope in version one. |
+| **Owner Role** | creative-product-lead |
+| **Blocks Progression** | no |
+| **Updated** | 2026-05-18 |
 
 ---
 

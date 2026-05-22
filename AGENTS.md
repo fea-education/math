@@ -1,3 +1,7 @@
+---
+title: 'AGENTS'
+---
+
 ## Context
 Use this table as a selective context-loading index. Only load a document when the current task clearly matches its `When to load` trigger; otherwise keep it unloaded to avoid unnecessary context bloat.
 

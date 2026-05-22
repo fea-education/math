@@ -28,7 +28,7 @@ Capture the raw game idea in enough structured form to support Vision Definition
 <!-- One sentence: genre + core mechanic + player fantasy. -->
 <!-- Example: "A turn-based tactics game where the player commands a failing empire by deciding which wars to lose gracefully." -->
 
-A web-based math practice app for Berlin elementary school students that starts with Grade 3 math content and uses harmless gamification to motivate regular practice and measurable improvement.
+A web-based math practice app for Berlin elementary school students that starts with Grade 2 math content and uses harmless gamification to motivate regular practice and measurable improvement.
 
 ## Genre and Platform Assumptions
 
@@ -40,7 +40,7 @@ A web-based math practice app for Berlin elementary school students that starts 
 
 <!-- Who is this for? What do they want to feel? What games do they already love? -->
 
-Primary launch players are Berlin elementary school students working on Grade 3 math content who need regular practice that feels achievable, supportive, and worth returning to. They want to feel capable, see visible progress, and avoid the boredom or frustration common in repetitive drill tools. Later expansion to other grades remains open.
+Primary launch players are Berlin elementary school students working on Grade 2 math content who need regular practice that feels achievable, supportive, and worth returning to. They want to feel capable, see visible progress, and avoid the boredom or frustration common in repetitive drill tools. Later expansion to other grades remains open.
 
 ## Core Fantasy
 
@@ -106,7 +106,7 @@ Likely additional metadata needed later:
 3. Delivery form: web app only.
 4. Input and interaction must work well on desktop, tablet, phone, and touch-driven devices.
 5. The product should prioritize strong curriculum fit and good exercises over novelty.
-6. The first release should focus on Grade 3 only. Expansion to other grades will be decided later.
+6. The first release should focus on Grade 2 only. Expansion to other grades will be decided later.
 
 ## Unknowns
 
@@ -125,7 +125,7 @@ Likely additional metadata needed later:
 
 The exact visual representation is intentionally left open for now. Phase 01 should lock the underlying motivational and pedagogical model first. The key requirement is a structure that can show confidence around current-grade expected content while still allowing review below grade level and exploration above grade level.
 
-Current working direction: use a curriculum-aligned domain and mastery data model underneath, treat garden-style UI concepts as interchangeable views over that model, and focus the first release on Grade 3 content.
+Current working direction: use a curriculum-aligned domain and mastery data model underneath, treat garden-style UI concepts as interchangeable views over that model, and focus the first release on Grade 2 content.
 
 ## Core Loop Hypothesis
 
@@ -163,4 +163,4 @@ The plant can also be shown as awake or sleeping, with sleeping used as a gentle
 
 Status: `approved`
 Approved by: human (2026-05-17)
-Notes: Approved for progression to Vision Definition. Core loop direction is a garden-based mastery and review loop with awake/sleeping plant states. The Phase 01 structural direction is a curriculum-aligned domain and mastery data model, while leaving the exact garden structure and visual treatment open. The first release is explicitly limited to Grade 3.
+Notes: Approved for progression to Vision Definition. Core loop direction is a garden-based mastery and review loop with awake/sleeping plant states. The Phase 01 structural direction is a curriculum-aligned domain and mastery data model, while leaving the exact garden structure and visual treatment open. The first release is explicitly limited to Grade 2.

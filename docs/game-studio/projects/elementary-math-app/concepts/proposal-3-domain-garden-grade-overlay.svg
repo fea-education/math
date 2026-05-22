@@ -48,7 +48,7 @@
   <text x="339" y="625" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#245d57">Grade 2</text>
   <text x="339" y="654" font-family="Arial, sans-serif" font-size="15" fill="#587485">larger numbers</text>
   <rect x="500" y="590" width="160" height="90" rx="16" fill="#ffffff" stroke="#d7e7e5"/>
-  <text x="524" y="625" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#245d57">Grade 3</text>
+  <text x="524" y="625" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#245d57">Grade 2</text>
   <text x="524" y="654" font-family="Arial, sans-serif" font-size="15" fill="#587485">review or stretch</text>
   <path d="M290 635 L315 635" stroke="#8ab9a7" stroke-width="6" stroke-linecap="round"/>
   <path d="M475 635 L500 635" stroke="#8ab9a7" stroke-width="6" stroke-linecap="round"/>

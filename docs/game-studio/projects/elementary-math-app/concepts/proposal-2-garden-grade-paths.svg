@@ -14,7 +14,7 @@
   <path d="M140 730 C260 690 350 655 480 670 C645 690 785 690 970 625 C1070 590 1155 530 1240 545" fill="none" stroke="#c9d39f" stroke-width="18" stroke-linecap="round" opacity="0.9"/>
 
   <text x="1030" y="255" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#8d6210">Grade 2 Path</text>
-  <text x="1065" y="400" font-family="Arial, sans-serif" font-size="18" fill="#5d6786">Grade 3 Path</text>
+  <text x="1065" y="400" font-family="Arial, sans-serif" font-size="18" fill="#5d6786">Grade 2 Path</text>
   <text x="1115" y="525" font-family="Arial, sans-serif" font-size="18" fill="#667348">Grade 1 Path</text>
 
   <circle cx="290" cy="528" r="52" fill="#9fd67e" stroke="#6ba155" stroke-width="4"/>
