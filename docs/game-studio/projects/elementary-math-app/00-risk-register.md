@@ -2,7 +2,7 @@
 title: Risk Register
 status: draft
 project: elementary-math-app
-updated_at: 2026-05-18
+updated_at: 2026-05-22
 ---
 
 # Risk Register - Elementary Math App
@@ -95,6 +95,40 @@ Track all known risks across the full project lifecycle. Every open question tha
 | **Owner Role** | creative-product-lead |
 | **Blocks Progression** | no |
 | **Updated** | 2026-05-18 |
+
+---
+
+### RISK-005
+
+| Field | Value |
+|---|---|
+| **Description** | Even with Grade 2-only scope, the product may still feel repetitive within one or two weeks if the first content slice lacks enough variation in review mix, representations, and challenge patterns. |
+| **Category** | design |
+| **Phase Introduced** | 03-concept-stress-test |
+| **Status** | accepted |
+| **Severity** | high |
+| **Confidence** | medium |
+| **Mitigation** | Start with a narrow but meaningfully varied Grade 2 slice, use mixed review and representation changes, and validate repeat-session appeal before expanding breadth. |
+| **Owner Role** | game-designer |
+| **Blocks Progression** | no |
+| **Updated** | 2026-05-22 |
+
+---
+
+### RISK-006
+
+| Field | Value |
+|---|---|
+| **Description** | The garden motivation loop may fail if sleeping states feel emotionally flat and ignorable, or if they feel like pressure, neglect, or loss. |
+| **Category** | design |
+| **Phase Introduced** | 03-concept-stress-test |
+| **Status** | accepted |
+| **Severity** | high |
+| **Confidence** | medium |
+| **Mitigation** | Prototype the sleeping and thriving states early, keep all inactivity effects reversible and low-stakes, and test the emotional effect before scaling the system. |
+| **Owner Role** | creative-product-lead |
+| **Blocks Progression** | no |
+| **Updated** | 2026-05-22 |
 
 ---
 

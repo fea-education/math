@@ -12,7 +12,7 @@ updated_at: 2026-05-22
 <!-- The current workflow phase. -->
 <!-- Options: 01-idea-intake | 02-vision-definition | 03-concept-stress-test | 04-pre-production-design | 05-prototype-planning | 06-production-planning | 07-change-control | 08-implementation-support -->
 
-Phase: `03-concept-stress-test`
+Phase: `04-pre-production-design`
 
 ## Latest Approved Artefacts
 
@@ -22,7 +22,7 @@ Phase: `03-concept-stress-test`
 |---|---|---|
 | `01-idea-brief.md` | approved | yes |
 | `02-vision-brief.md` | approved | yes |
-| `03-concept-stress-test.md` | — | — |
+| `03-concept-stress-test.md` | approved-with-conditions | yes |
 | `04-design-package.md` | — | — |
 | `05-prototype-plan.md` | — | — |
 | `06-production-plan.md` | — | — |
@@ -32,7 +32,7 @@ Phase: `03-concept-stress-test`
 <!-- Questions that must be answered before the current phase can advance. -->
 <!-- If none, write "none". -->
 
-1. What are the highest-risk assumptions in the Grade 2-first concept that could still make the product fail or stall?
+1. What should the compact Grade 2 design package include so the project stays within the approved conditions?
 
 ## Accepted Risks
 
@@ -43,15 +43,17 @@ Phase: `03-concept-stress-test`
 2. RISK-002 - A garden freshness mechanic could accidentally create pressure if framed poorly.
 3. RISK-003 - Oversimplified level mapping could misrepresent Berlin curriculum progression.
 4. RISK-004 - Combining child simplicity with parent reassurance could overload the early product if not separated clearly.
+5. RISK-005 - Even Grade 2-only content may become repetitive too quickly if the slice lacks enough real variation.
+6. RISK-006 - The sleeping mechanic may fail if it feels either too flat or too pressuring.
 
 ## Next Decision Required
 
 <!-- The single most important decision the human needs to make right now. -->
 
-Review the concept's highest-risk assumptions in `03-concept-stress-test.md` and decide whether the project should proceed, be tightened, or be parked.
+Draft `04-design-package.md` so the core loop, mechanics, system interactions, progression, and content scope all respect the approved proceed-with-conditions verdict.
 
 ## Recommended Next Step
 
 <!-- What the orchestrator recommends doing next. -->
 
-Draft the Concept Stress Test artefact by identifying the biggest product, delivery, and design risks in the Grade 2-first concept before further design expansion.
+Move into Pre-Production Design with a narrow, risk-aware design package focused on varied Grade 2 content, low-pressure motivation, and a clearly bounded adult-facing progress layer.
