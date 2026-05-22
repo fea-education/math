@@ -149,4 +149,21 @@ Track all known risks across the full project lifecycle. Every open question tha
 
 ---
 
+### RISK-008
+
+| Field | Value |
+|---|---|
+| **Description** | The project may become too expensive or too slow if plant states, garden variants, and supporting UI visuals require too much bespoke illustration work. |
+| **Category** | art |
+| **Phase Introduced** | 04-pre-production-design |
+| **Status** | accepted |
+| **Severity** | high |
+| **Confidence** | medium |
+| **Mitigation** | Use Phase 05 to test a repeatable asset-production workflow with a small but representative set of plant states and UI assets, and prefer reusable visual systems over one-off artwork. |
+| **Owner Role** | art-director |
+| **Blocks Progression** | no |
+| **Updated** | 2026-05-22 |
+
+---
+
 <!-- Duplicate the block above for each additional risk. -->

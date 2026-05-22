@@ -1,6 +1,6 @@
 ---
 title: Design Package
-status: draft
+status: approved
 owner_role: game-designer
 contributors:
   - creative-product-lead
@@ -16,7 +16,8 @@ open_questions:
   - What is the gentlest visual and interaction expression for sleeping versus awake plants?
   - What adult-facing progress view is enough for trust in version one?
   - What level of automated or semi-automated content production is required for the project to stay viable beyond prototype scope?
-approved_by:
+  - What level of automated, reusable, or low-burden art production is required for the product to stay viable?
+approved_by: human (2026-05-22)
 updated_at: 2026-05-22
 ---
 
@@ -106,7 +107,7 @@ Design note: Prototype Planning should include a targeted content prototype to t
 - Key inputs/outputs: inputs include recent accuracy, mastery state, category recency, and representation history; outputs are mission suggestions and wake or growth opportunities.
 - Key risks: poor tuning may create repetition, weak challenge, or misleading progress.
 
-Design note: after prototype validation, this system should support an A/B test between a recommended-first 10-minute loop entry and a small-choice-set-first entry. That implies some future analytics capability, but analytics design is intentionally out of scope for the current phase.
+Design note: after the core v1 loop is working, this system should be able to support a later A/B test between a recommended-first 10-minute loop entry and a small-choice-set-first entry. That implies some future analytics capability, but analytics design is intentionally out of scope for the current phase and not a Phase 05 prototype target.
 
 ### System: Garden State System
 - Purpose: translate practice patterns into plant growth, thriving, and sleeping states.
@@ -165,6 +166,7 @@ Key readability requirements:
 4. Plant states and progress visuals should be feasible with modest animation or even static state changes if interaction polish becomes too expensive.
 5. Early prototypes should test emotional effect and loop clarity before expensive visual polish.
 6. Phase 05 should include a content-generation prototype that tests whether the metadata model can support automated or semi-automated authoring.
+7. Phase 05 should also validate whether art assets can be produced through a repeatable, low-burden workflow rather than one-off handcrafted output alone.
 
 ## Design Risks
 
@@ -176,18 +178,20 @@ Key readability requirements:
 | RISK-007 | The project may be non-viable if curriculum-aligned content cannot be produced in a meaningfully automated or semi-automated way. | Use Phase 05 to run a dedicated content-generation prototype and harden the metadata model based on the results. |
 | RISK-005 | The narrow Grade 2 slice may still feel repetitive if mission variation is too shallow. | Keep the first slice narrow but require variation across review mix, representations, and challenge patterns. |
 | RISK-006 | Sleeping plants may feel emotionally wrong if they imply neglect or loss. | Prototype several sleeping-state presentations before locking the loop. |
+| RISK-008 | The project may become too expensive or slow if plant states and other visual assets require too much bespoke illustration work. | Use Phase 05 to test a repeatable asset-production workflow with a small but representative set of plant states and UI assets. |
 | RISK-004 | Adult reassurance may overload the product if it leaks too much complexity into the child flow. | Keep adult-facing progress in a separate, tightly bounded summary view. |
 
 ## Open Questions
 
 1. Which specific Grade 2 categories should be in the first narrow content slice?
 2. What rules are enough to classify a category as solid, in progress, or ready for review?
-3. Which constraints should govern a future A/B test between recommended-first and choice-first 10-minute loop entry?
 4. What minimum viable automated or semi-automated content pipeline is needed for the project to stay viable?
+5. What minimum viable art-production workflow keeps plant states and UI assets sustainable?
 
 ## Risk Register Updates
 
 1. Added RISK-007 on project viability if content production cannot be automated or semi-automated enough to scale beyond prototype scope.
+2. Added RISK-008 on project viability if visual assets require too much bespoke art production.
 
 ## Acceptance Criteria
 
@@ -197,10 +201,10 @@ Key readability requirements:
 - [x] Onboarding approach is specified.
 - [x] Technical assumptions are explicit.
 - [x] The package is compact enough to be revised easily.
-- [ ] Human approval recorded.
+- [x] Human approval recorded.
 
 ## Approval Status
 
-Status: `draft`
-Approved by:
-Notes: Drafted to stay within the approved proceed-with-conditions verdict. The design package intentionally keeps the content slice, adult-facing layer, and garden expression narrow so those items can be validated before broader build-out. A future A/B test on 10-minute loop entry has been noted, analytics planning remains out of scope for this phase, and Phase 05 must also validate whether content production can be automated or semi-automated enough for the project to stay viable.
+Status: `approved`
+Approved by: human (2026-05-22)
+Notes: Approved for progression to Prototype Planning. The design package keeps the content slice, adult-facing layer, and garden expression narrow, treats the A/B entry-flow test as a later v1 optimization concern, and requires Phase 05 to validate both content-production and art-production sustainability.

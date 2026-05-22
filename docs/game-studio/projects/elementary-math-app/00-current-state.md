@@ -12,7 +12,7 @@ updated_at: 2026-05-22
 <!-- The current workflow phase. -->
 <!-- Options: 01-idea-intake | 02-vision-definition | 03-concept-stress-test | 04-pre-production-design | 05-prototype-planning | 06-production-planning | 07-change-control | 08-implementation-support -->
 
-Phase: `04-pre-production-design`
+Phase: `05-prototype-planning`
 
 ## Latest Approved Artefacts
 
@@ -23,7 +23,7 @@ Phase: `04-pre-production-design`
 | `01-idea-brief.md` | approved | yes |
 | `02-vision-brief.md` | approved | yes |
 | `03-concept-stress-test.md` | approved-with-conditions | yes |
-| `04-design-package.md` | draft | no |
+| `04-design-package.md` | approved | yes |
 | `05-prototype-plan.md` | — | — |
 | `06-production-plan.md` | — | — |
 
@@ -32,7 +32,7 @@ Phase: `04-pre-production-design`
 <!-- Questions that must be answered before the current phase can advance. -->
 <!-- If none, write "none". -->
 
-1. Does the drafted design package now capture the critical requirement to validate automated or semi-automated content production in Phase 05?
+1. Which targeted prototypes should be included in Phase 05 to validate the approved conditions and viability risks?
 
 ## Accepted Risks
 
@@ -46,15 +46,16 @@ Phase: `04-pre-production-design`
 5. RISK-005 - Even Grade 2-only content may become repetitive too quickly if the slice lacks enough real variation.
 6. RISK-006 - The sleeping mechanic may fail if it feels either too flat or too pressuring.
 7. RISK-007 - The project may be non-viable if content production cannot be automated or semi-automated enough to scale.
+8. RISK-008 - The project may become too slow or expensive if visual assets require too much bespoke art production.
 
 ## Next Decision Required
 
 <!-- The single most important decision the human needs to make right now. -->
 
-Review `04-design-package.md` and decide whether it is the right compact design shape for the Grade 2-first release, including the requirement for a future content-generation prototype.
+Draft `05-prototype-plan.md` so the highest-risk unknowns are tested in the smallest possible set of focused prototypes.
 
 ## Recommended Next Step
 
 <!-- What the orchestrator recommends doing next. -->
 
-Review and refine the drafted design package, especially the first content slice, the plant-state loop, the limited adult-facing progress layer, and the requirement for a future content-generation prototype, before approval.
+Define the Phase 05 prototype plan with a small set of targeted experiments for sleeping-state emotional tuning, content-generation viability, and art-production sustainability.
