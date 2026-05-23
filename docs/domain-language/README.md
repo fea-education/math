@@ -20,6 +20,7 @@ Define canonical math domain terms for this project so curriculum facts, product
 ## Structure
 
 - `docs/domain-language/rules.md`
+- `docs/domain-language/runbook.md`
 - `docs/domain-language/berlin-curriculum.md`
 - `docs/domain-language/product-terms.md`
 - `docs/domain-language/index.yaml`

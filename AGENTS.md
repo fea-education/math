@@ -9,6 +9,7 @@ Use this table as a selective context-loading index. Only load a document when t
 | -------- | ------- | ------------ |
 | `docs/domain-language/README.md` | Overview of glossary purpose, scope, structure, and operational flow for domain language management. | Load at the start of every session. |
 | `docs/domain-language/rules.md` | Canonical term rules, required fields, lifecycle states, and conflict handling policy. | Load when adding, reviewing, deduplicating, or deprecating terms. |
+| `docs/domain-language/runbook.md` | Practical execution workflow for glossary retrieval, unknown-term intake, review transitions, and persistence steps. | Load when executing glossary updates in active tasks or when deciding term status transitions. |
 | `docs/domain-language/berlin-curriculum.md` | Human-readable list and notes for canonical Berlin curriculum terms in German with English explanations. | Load when working with Berlin curriculum terminology or validating canonical German labels. |
 | `docs/domain-language/product-terms.md` | Human-readable list and notes for product-specific terms and definitions. | Load when introducing or reviewing internal product vocabulary and model terms. |
 | `docs/domain-language/index.yaml` | Machine-readable glossary index used as the canonical term registry and status tracker. | Load at the start of every session. |
