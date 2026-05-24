@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "id": "grade2_subtraction_exercise_index",
+    "title": "Grade 2 subtraction exercise index",
+    "jurisdiction": "Berlin-Brandenburg",
+    "subject": "Mathematik",
+    "grade_target": "grade_2",
+    "generated_at": "2026-05-24T07:31:36Z",
+    "source_model": "docs/game-studio/projects/elementary-math-app/poc/grade2_subtraction_curriculum_slice.json",
+    "scope_tags": [
+      "grade_2_path",
+      "poc_only"
+    ]
+  },
+  "entries": [
+    {
+      "id": "exercise_rlp_foerder_gs_b_gv",
+      "scope_tag": "grade_2_path",
+      "source_ref_id": "rlp_foerder_gs_b_gv",
+      "title": "Foerderung Grundschule B: Grundvorstellungen zu Rechenoperationen",
+      "publisher": "Bildungsserver Berlin-Brandenburg",
+      "grade_band": "1-2",
+      "difficulty_band": "niveaustufe_b",
+      "format": "pdf",
+      "concept_ids": [
+        "subtraction_operation_models_b"
+      ],
+      "standard_uids": [
+        1744
+      ],
+      "process_competence_ids": [
+        "mathematische_darstellungen_verwenden",
+        "probleme_mathematisch_loesen"
+      ],
+      "local_path": "docs/game-studio/projects/elementary-math-app/poc/exercises/Ma_MzDuF_L1_ZO_Foerder_GS_B_GV_2023-05.pdf",
+      "source_fact": {
+        "statement": "Foerderaufgaben Grundschule Niveaustufe B: Grundvorstellungen zu Rechenoperationen aufbauen.",
+        "provenance": {
+          "source_url": "https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/rlp-online/Teil_C/Mathematik/Materialien/Materialien_zum_Themenfeld1_Zahlen_und_Operationen/Foerderung/Foerderung_Grundschule/Foerderung_B/Ma_MzDuF_L1_ZO_Foerder_GS_B_GV_2023-05.pdf",
+          "source_id": "Ma_MzDuF_L1_ZO_Foerder_GS_B_GV_2023-05.pdf",
+          "retrieved_at": "2026-05-24T07:31:36Z"
+        }
+      }
+    },
+    {
+      "id": "exercise_rlp_foerder_gs_b_pm",
+      "scope_tag": "grade_2_path",
+      "source_ref_id": "rlp_foerder_gs_b_pm",
+      "title": "Foerderung Grundschule B: Tragfaehige Strategien zur Addition und Subtraktion",
+      "publisher": "Bildungsserver Berlin-Brandenburg",
+      "grade_band": "1-2",
+      "difficulty_band": "niveaustufe_b",
+      "format": "pdf",
+      "concept_ids": [
+        "subtraction_stepwise_over_10_b",
+        "subtraction_analogies_b"
+      ],
+      "standard_uids": [
+        1751
+      ],
+      "process_competence_ids": [
+        "probleme_mathematisch_loesen",
+        "mit_mathematischen_objekten_und_werkzeugen_umgehen"
+      ],
+      "local_path": "docs/game-studio/projects/elementary-math-app/poc/exercises/Ma_MzDuF_L1_ZO_Foerder_GS_B_PM_2023-05.pdf",
+      "source_fact": {
+        "statement": "Foerderaufgaben Grundschule Niveaustufe B: Tragfaehige Strategien zur Addition und Subtraktion nutzen.",
+        "provenance": {
+          "source_url": "https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/rlp-online/Teil_C/Mathematik/Materialien/Materialien_zum_Themenfeld1_Zahlen_und_Operationen/Foerderung/Foerderung_Grundschule/Foerderung_B/Ma_MzDuF_L1_ZO_Foerder_GS_B_PM_2023-05.pdf",
+          "source_id": "Ma_MzDuF_L1_ZO_Foerder_GS_B_PM_2023-05.pdf",
+          "retrieved_at": "2026-05-24T07:31:36Z"
+        }
+      }
+    },
+    {
+      "id": "exercise_rlp_foerder_gs_b_zz",
+      "scope_tag": "grade_2_path",
+      "source_ref_id": "rlp_foerder_gs_b_zz",
+      "title": "Foerderung Grundschule B: Zahlzerlegungen und Subtraktion bis 10",
+      "publisher": "Bildungsserver Berlin-Brandenburg",
+      "grade_band": "1-2",
+      "difficulty_band": "niveaustufe_a_b",
+      "format": "pdf",
+      "concept_ids": [
+        "subtraction_fact_families_b",
+        "subtraction_inverse_relations_b"
+      ],
+      "standard_uids": [
+        1743,
+        1744
+      ],
+      "process_competence_ids": [
+        "mit_mathematischen_objekten_und_werkzeugen_umgehen"
+      ],
+      "local_path": "docs/game-studio/projects/elementary-math-app/poc/exercises/Ma_MzDuF_L1_ZO_Foerder_GS_B_ZZ_2023-05.pdf",
+      "source_fact": {
+        "statement": "Foerderaufgaben Grundschule Niveaustufe B: Zahlzerlegungen sowie Addition und Subtraktion im Zahlenraum bis 10 automatisieren.",
+        "provenance": {
+          "source_url": "https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/rlp-online/Teil_C/Mathematik/Materialien/Materialien_zum_Themenfeld1_Zahlen_und_Operationen/Foerderung/Foerderung_Grundschule/Foerderung_B/Ma_MzDuF_L1_ZO_Foerder_GS_B_ZZ_2023-05.pdf",
+          "source_id": "Ma_MzDuF_L1_ZO_Foerder_GS_B_ZZ_2023-05.pdf",
+          "retrieved_at": "2026-05-24T07:31:36Z"
+        }
+      }
+    },
+    {
+      "id": "exercise_rlp_foerder_gs_c_pm",
+      "scope_tag": "poc_only",
+      "source_ref_id": "rlp_foerder_gs_c_pm",
+      "title": "Foerderung Grundschule C: Strategien und Rechenregeln zur Subtraktion",
+      "publisher": "Bildungsserver Berlin-Brandenburg",
+      "grade_band": "2-3",
+      "difficulty_band": "niveaustufe_c",
+      "format": "pdf",
+      "concept_ids": [
+        "subtraction_stepwise_over_10_b",
+        "subtraction_control_with_inverse_b"
+      ],
+      "standard_uids": [
+        1745,
+        1752
+      ],
+      "process_competence_ids": [
+        "mathematisch_argumentieren",
+        "probleme_mathematisch_loesen"
+      ],
+      "local_path": "docs/game-studio/projects/elementary-math-app/poc/exercises/Ma_MzDuF_L1_ZO_Foerder_GS_C_PM_2023-05.pdf",
+      "source_fact": {
+        "statement": "Foerderaufgaben Grundschule Niveaustufe C: Tragfaehige Strategien und Rechenregeln zur Addition und Subtraktion nutzen.",
+        "provenance": {
+          "source_url": "https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/rlp-online/Teil_C/Mathematik/Materialien/Materialien_zum_Themenfeld1_Zahlen_und_Operationen/Foerderung/Foerderung_Grundschule/Foerderung_C/Ma_MzDuF_L1_ZO_Foerder_GS_C_PM_2023-05.pdf",
+          "source_id": "Ma_MzDuF_L1_ZO_Foerder_GS_C_PM_2023-05.pdf",
+          "retrieved_at": "2026-05-24T07:31:36Z"
+        }
+      }
+    },
+    {
+      "id": "exercise_pikas_1minus1_komplett",
+      "scope_tag": "grade_2_path",
+      "source_ref_id": "pikas_1minus1_komplett",
+      "title": "PIKAS: Kompletter 1-1 Kartensatz",
+      "publisher": "PIKAS (DZLM)",
+      "grade_band": "1-2",
+      "difficulty_band": "niveaustufe_a_b",
+      "format": "pdf",
+      "concept_ids": [
+        "subtraction_fact_families_b",
+        "subtraction_inverse_relations_b",
+        "subtraction_control_with_inverse_b"
+      ],
+      "standard_uids": [
+        1743,
+        1744
+      ],
+      "process_competence_ids": [
+        "mit_mathematischen_objekten_und_werkzeugen_umgehen",
+        "mathematisch_kommunizieren"
+      ],
+      "local_path": "docs/game-studio/projects/elementary-math-app/poc/exercises/1-1_komplett.pdf",
+      "source_fact": {
+        "statement": "PIKAS complete 1-1 subtraction card set for practice in early primary grades.",
+        "provenance": {
+          "source_url": "https://pikas.dzlm.de/pikasfiles/uploads/upload/Material/Haus_3_-_Umgang_mit_Rechenschwierigkeiten/UM/1-1/1-1_komplett.pdf",
+          "source_id": "1-1_komplett.pdf",
+          "retrieved_at": "2026-05-24T07:31:36Z"
+        }
+      }
+    },
+    {
+      "id": "exercise_pikas_geschickte_subtraktion_sob",
+      "scope_tag": "grade_2_path",
+      "source_ref_id": "pikas_geschickte_subtraktion_standortbestimmung",
+      "title": "PIKAS Standortbestimmung: Geschickte Subtraktion",
+      "publisher": "PIKAS (DZLM)",
+      "grade_band": "1-2",
+      "difficulty_band": "niveaustufe_b",
+      "format": "pdf",
+      "concept_ids": [
+        "subtraction_analogies_b",
+        "subtraction_inverse_relations_b",
+        "subtraction_control_with_inverse_b"
+      ],
+      "standard_uids": [
+        1744,
+        1751
+      ],
+      "process_competence_ids": [
+        "probleme_mathematisch_loesen",
+        "mathematisch_argumentieren"
+      ],
+      "local_path": "docs/game-studio/projects/elementary-math-app/poc/exercises/dif_zr20_geschicktesubtraktion_sob.pdf",
+      "source_fact": {
+        "statement": "PIKAS diagnostic worksheet Geschickte Subtraktion with strategy-oriented subtraction tasks.",
+        "provenance": {
+          "source_url": "https://pikas.dzlm.de/pikasfiles/uploads/upload/Material/diagnose_und_foerderung/klasse1/dif_zr20_geschicktesubtraktion_sob.pdf",
+          "source_id": "dif_zr20_geschicktesubtraktion_sob.pdf",
+          "retrieved_at": "2026-05-24T07:31:36Z"
+        }
+      }
+    },
+    {
+      "id": "exercise_pikas_subtraktion_im_kopf_sob",
+      "scope_tag": "grade_2_path",
+      "source_ref_id": "pikas_subtraktion_im_kopf_standortbestimmung",
+      "title": "PIKAS Standortbestimmung: Subtraktion im Kopf",
+      "publisher": "PIKAS (DZLM)",
+      "grade_band": "1-2",
+      "difficulty_band": "niveaustufe_b",
+      "format": "pdf",
+      "concept_ids": [
+        "subtraction_stepwise_over_10_b",
+        "subtraction_analogies_b"
+      ],
+      "standard_uids": [
+        1751,
+        1735
+      ],
+      "process_competence_ids": [
+        "probleme_mathematisch_loesen",
+        "mit_mathematischen_objekten_und_werkzeugen_umgehen"
+      ],
+      "local_path": "docs/game-studio/projects/elementary-math-app/poc/exercises/dif_zr20_subtraktionimkopf_sob.pdf",
+      "source_fact": {
+        "statement": "PIKAS diagnostic worksheet Subtraktion im Kopf for mental subtraction strategies.",
+        "provenance": {
+          "source_url": "https://pikas.dzlm.de/pikasfiles/uploads/upload/Material/diagnose_und_foerderung/klasse1/dif_zr20_subtraktionimkopf_sob.pdf",
+          "source_id": "dif_zr20_subtraktionimkopf_sob.pdf",
+          "retrieved_at": "2026-05-24T07:31:36Z"
+        }
+      }
+    }
+  ]
+}

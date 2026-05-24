@@ -1,0 +1,32 @@
+---
+title: Grade2 Subtraction Exercise Index
+status: draft
+updated_at: 2026-05-24
+---
+
+import JsonTree from '@components/JsonTree.astro';
+import exerciseIndex from '@workspace-docs/game-studio/projects/elementary-math-app/poc/exercises/index.json';
+
+# Grade2 Subtraction Exercise Index
+
+## Purpose
+
+Provide a machine-readable index of downloaded exercise materials mapped to the Grade 2 subtraction POC model.
+
+## Core Structure
+
+- `meta`: identity, scope, source model binding, and generation timestamp.
+- `entries`: exercise records with source reference link, local file path, and curriculum mapping metadata.
+- Each record includes `concept_ids`, `standard_uids`, and `process_competence_ids` for task-generation compatibility.
+
+## Mapping Notes
+
+- `source_ref_id` points to `supporting_references.exercise_references` in `grade2_subtraction_curriculum_slice.json`.
+- `scope_tag` uses the same model convention (`grade_2_path`, `poc_only`).
+- `local_path` points to files under `poc/exercises/`.
+
+## Interactive Tree
+
+Expand and collapse nodes to inspect the full exercise index JSON.
+
+<JsonTree data={exerciseIndex} rootLabel="grade2_subtraction_exercise_index" />

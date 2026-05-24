@@ -1,0 +1,151 @@
+---
+interface Props {
+  label: string;
+  value: unknown;
+  depth?: number;
+}
+
+const { label, value, depth = 0 } = Astro.props;
+
+const isArray = Array.isArray(value);
+const isObject = value !== null && typeof value === 'object' && !isArray;
+const isLeaf = !isArray && !isObject;
+
+const objectEntries = isObject
+  ? Object.entries(value as Record<string, unknown>).sort((a, b) =>
+      a[0].localeCompare(b[0]),
+    )
+  : [];
+const arrayEntries = isArray ? (value as unknown[]) : [];
+
+const summaryType = isArray
+  ? `array(${arrayEntries.length})`
+  : isObject
+    ? `object(${objectEntries.length})`
+    : typeof value;
+
+const pretty = (v: unknown) => {
+  if (typeof v === 'string') return `"${v}"`;
+  if (v === null) return 'null';
+  return String(v);
+};
+
+const indentDepth = depth > 0 ? depth - 1 : 0;
+---
+
+<li class={`node ${depth === 0 ? 'root' : ''}`} style={`--indent:${indentDepth}`}>
+  {
+    isLeaf ? (
+      <div class="leaf">
+        <span class="key" title={label}>{label}</span>
+        <span class="sep">:</span>
+        <code class="val">{pretty(value)}</code>
+      </div>
+    ) : (
+      <details open={depth < 2}>
+        <summary>
+          <span class="key" title={label}>{label}</span>
+          <span class="meta">{summaryType}</span>
+        </summary>
+        <ul>
+          {
+            isArray
+              ? arrayEntries.map((child, i) => (
+                  <Astro.self label={`[${i}]`} value={child} depth={depth + 1} />
+                ))
+              : objectEntries.map(([k, child]) => (
+                  <Astro.self label={k} value={child} depth={depth + 1} />
+                ))
+          }
+        </ul>
+      </details>
+    )
+  }
+</li>
+
+<style>
+  .node {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.86rem;
+    line-height: 1.18;
+  }
+
+  .leaf,
+  summary {
+    display: flex;
+    align-items: baseline;
+    gap: 0.2rem;
+    padding: 0.03rem 0;
+    margin-left: calc(var(--indent) * 0.05rem);
+    min-width: 0;
+  }
+
+  summary {
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary::before {
+    content: '▸';
+    width: 0.72rem;
+    flex: 0 0 0.72rem;
+    opacity: 0.85;
+  }
+
+  details[open] > summary::before {
+    content: '▾';
+  }
+
+  .leaf::before {
+    content: '';
+    width: 0.72rem;
+    flex: 0 0 0.72rem;
+  }
+
+  .key {
+    font-weight: 600;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .meta {
+    font-size: 0.74rem;
+    opacity: 0.75;
+    white-space: nowrap;
+    margin-left: 0.15rem;
+  }
+
+  .sep {
+    opacity: 0.65;
+  }
+
+  .val {
+    white-space: pre-wrap;
+    word-break: break-word;
+    font-size: 0.82rem;
+    line-height: 1.2;
+    min-width: 0;
+    flex: 1 1 auto;
+  }
+
+  ul {
+    margin: 0 0 0.04rem 0.2rem;
+    padding-left: 0.2rem;
+    border-left: 1px solid var(--sl-color-gray-5);
+  }
+
+  .root > details > ul {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: 0;
+  }
+</style>

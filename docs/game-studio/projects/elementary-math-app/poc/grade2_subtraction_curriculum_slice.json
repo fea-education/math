@@ -1,0 +1,672 @@
+{
+  "meta": {
+    "id": "grade2_subtraction_curriculum_slice",
+    "title": "Grade 2 subtraction curriculum slice",
+    "jurisdiction": "Berlin-Brandenburg",
+    "subject": "Mathematik",
+    "grade_target": "grade_2",
+    "generated_at": "2026-05-23T12:51:36Z",
+    "source_priority": [
+      "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik",
+      "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/themen-und-inhalte",
+      "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/kompetenzen-und-standards"
+    ],
+    "conventions": {
+      "stable_ids": true,
+      "scope_tags": [
+        "global",
+        "grade_2_path",
+        "poc_only"
+      ],
+      "unknown_policy": "Use explicit 'unknown'"
+    }
+  },
+  "domain_language_binding": {
+    "registry": "docs/domain-language/index.yaml",
+    "required_term_ids": [
+      "leitidee_zahlen_und_operationen",
+      "leitidee_groessen_und_messen",
+      "leitidee_raum_und_form",
+      "leitidee_gleichungen_und_funktionen",
+      "leitidee_daten_und_zufall",
+      "niveaustufe_a",
+      "niveaustufe_b",
+      "niveaustufe_c",
+      "niveaustufe_d",
+      "niveaustufe_e",
+      "niveaustufe_f",
+      "niveaustufe_g",
+      "niveaustufe_h",
+      "schulanfangsphase",
+      "operationsvorstellungen_entwickeln",
+      "rechenverfahren_und_strategien_anwenden",
+      "grundrechenoperationen",
+      "subtraktion",
+      "umkehroperationen",
+      "aufgabenfamilien",
+      "mathematisch_argumentieren",
+      "probleme_mathematisch_loesen",
+      "mathematisch_modellieren",
+      "mathematische_darstellungen_verwenden",
+      "mit_mathematischen_objekten_und_werkzeugen_umgehen",
+      "mathematisch_kommunizieren",
+      "mit_medien_mathematisch_arbeiten"
+    ]
+  },
+  "taxonomy": {
+    "leitideen": [
+      {
+        "id": "leitidee_zahlen_und_operationen",
+        "scope_tag": "global",
+        "source_fact": {
+          "statement": "Die fuenf Leitideen des Mathematikunterrichts sind Zahlen und Operationen, Groessen und Messen, Raum und Form, Gleichungen und Funktionen sowie Daten und Zufall.",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/themen-und-inhalte",
+            "source_id": "unknown",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Primary arithmetic strand for this slice."
+      },
+      {
+        "id": "leitidee_groessen_und_messen",
+        "scope_tag": "global",
+        "source_fact": {
+          "statement": "Leitidee in the official list.",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/themen-und-inhalte",
+            "source_id": "unknown",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Kept for exhaustive high-level taxonomy."
+      },
+      {
+        "id": "leitidee_raum_und_form",
+        "scope_tag": "global",
+        "source_fact": {
+          "statement": "Leitidee in the official list.",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/themen-und-inhalte",
+            "source_id": "unknown",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Kept for exhaustive high-level taxonomy."
+      },
+      {
+        "id": "leitidee_gleichungen_und_funktionen",
+        "scope_tag": "global",
+        "source_fact": {
+          "statement": "Leitidee in the official list.",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/themen-und-inhalte",
+            "source_id": "unknown",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Kept for exhaustive high-level taxonomy."
+      },
+      {
+        "id": "leitidee_daten_und_zufall",
+        "scope_tag": "global",
+        "source_fact": {
+          "statement": "Leitidee in the official list.",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/themen-und-inhalte",
+            "source_id": "unknown",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Kept for exhaustive high-level taxonomy."
+      }
+    ],
+    "niveaustufen": [
+      "niveaustufe_a",
+      "niveaustufe_b",
+      "niveaustufe_c",
+      "niveaustufe_d",
+      "niveaustufe_e",
+      "niveaustufe_f",
+      "niveaustufe_g",
+      "niveaustufe_h"
+    ],
+    "niveaustufen_fact": {
+      "scope_tag": "global",
+      "source_fact": {
+        "statement": "Die Anforderungen werden auf acht Stufen ausgewiesen, die durch die Buchstaben A bis H gekennzeichnet sind.",
+        "provenance": {
+          "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/kompetenzen-und-standards",
+          "source_id": "unknown",
+          "retrieved_at": "2026-05-23T12:51:36Z"
+        }
+      },
+      "app_interpretation": "Include all levels at high level, scope below to grade-2 subtraction path."
+    }
+  },
+  "grade_mapping": {
+    "grade_2_anchor": {
+      "id": "grade_2_anchor_berlin_brandenburg",
+      "scope_tag": "grade_2_path",
+      "source_fact": {
+        "statement": "Fuer Jahrgangsstufen 1 bis 6 kann als Orientierung dienen, dass in der Regel die Niveaustufe B am Ende der Jahrgangsstufe 2 erreicht werden soll.",
+        "provenance": {
+          "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/kompetenzen-und-standards",
+          "source_id": "unknown",
+          "retrieved_at": "2026-05-23T12:51:36Z"
+        }
+      },
+      "app_interpretation": "Grade 2 targets primarily Niveaustufe B; include A as prerequisite and C as bridge."
+    },
+    "phase_context": {
+      "id": "schulanfangsphase_context",
+      "scope_tag": "grade_2_path",
+      "source_fact": {
+        "statement": "Schulanfangsphase: Niveaustufen A, B, in Teilen C.",
+        "provenance": {
+          "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/kompetenzen-und-standards",
+          "source_id": "unknown",
+          "retrieved_at": "2026-05-23T12:51:36Z"
+        }
+      },
+      "app_interpretation": "Validates inclusion of A/B/C band for grade-2 modeling."
+    }
+  },
+  "process_competences_abc": [
+    {
+      "term_id": "mathematisch_argumentieren",
+      "scope_tag": "global",
+      "source_fact": {
+        "statement": "Process competence label appears for A/B/C.",
+        "provenance": {
+          "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/kompetenzen-und-standards",
+          "source_id": "unknown",
+          "retrieved_at": "2026-05-23T12:51:36Z"
+        }
+      },
+      "app_interpretation": "Available process dimension for subtraction tasks."
+    },
+    {
+      "term_id": "probleme_mathematisch_loesen",
+      "scope_tag": "global",
+      "source_fact": {
+        "statement": "Process competence label appears for A/B/C.",
+        "provenance": {
+          "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/kompetenzen-und-standards",
+          "source_id": "unknown",
+          "retrieved_at": "2026-05-23T12:51:36Z"
+        }
+      },
+      "app_interpretation": "Available process dimension for subtraction tasks."
+    },
+    {
+      "term_id": "mathematisch_modellieren",
+      "scope_tag": "global",
+      "source_fact": {
+        "statement": "Process competence label appears for A/B/C.",
+        "provenance": {
+          "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/kompetenzen-und-standards",
+          "source_id": "unknown",
+          "retrieved_at": "2026-05-23T12:51:36Z"
+        }
+      },
+      "app_interpretation": "Available process dimension for subtraction tasks."
+    },
+    {
+      "term_id": "mathematische_darstellungen_verwenden",
+      "scope_tag": "global",
+      "source_fact": {
+        "statement": "Process competence label appears for A/B/C.",
+        "provenance": {
+          "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/kompetenzen-und-standards",
+          "source_id": "unknown",
+          "retrieved_at": "2026-05-23T12:51:36Z"
+        }
+      },
+      "app_interpretation": "Available process dimension for subtraction tasks."
+    },
+    {
+      "term_id": "mit_mathematischen_objekten_und_werkzeugen_umgehen",
+      "scope_tag": "global",
+      "source_fact": {
+        "statement": "Process competence label appears for A/B/C.",
+        "provenance": {
+          "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/kompetenzen-und-standards",
+          "source_id": "unknown",
+          "retrieved_at": "2026-05-23T12:51:36Z"
+        }
+      },
+      "app_interpretation": "Available process dimension for subtraction tasks."
+    },
+    {
+      "term_id": "mathematisch_kommunizieren",
+      "scope_tag": "global",
+      "source_fact": {
+        "statement": "Process competence label appears for A/B/C.",
+        "provenance": {
+          "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/kompetenzen-und-standards",
+          "source_id": "unknown",
+          "retrieved_at": "2026-05-23T12:51:36Z"
+        }
+      },
+      "app_interpretation": "Available process dimension for subtraction tasks."
+    },
+    {
+      "term_id": "mit_medien_mathematisch_arbeiten",
+      "scope_tag": "global",
+      "source_fact": {
+        "statement": "Process competence label appears for A/B/C.",
+        "provenance": {
+          "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/kompetenzen-und-standards",
+          "source_id": "unknown",
+          "retrieved_at": "2026-05-23T12:51:36Z"
+        }
+      },
+      "app_interpretation": "Available process dimension for subtraction tasks."
+    }
+  ],
+  "grade2_subtraction_path": {
+    "id": "grade2_subtraction_path_core",
+    "scope_tag": "grade_2_path",
+    "leitidee_ref": "leitidee_zahlen_und_operationen",
+    "themen_refs": [
+      "operationsvorstellungen_entwickeln",
+      "rechenverfahren_und_strategien_anwenden"
+    ],
+    "concepts": [
+      {
+        "id": "subtraction_operation_models_b",
+        "domain_term_id": "subtraktion",
+        "scope_tag": "grade_2_path",
+        "source_fact": {
+          "statement": "Entwickeln von Vorstellungen zu den Grundrechenoperationen in dynamischen und statischen Situationen: zur Subtraktion (Wegnehmen, Unterschied).",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/themen-und-inhalte",
+            "source_id": "MA-I1-4-B",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Model subtraction both as take-away and as difference."
+      },
+      {
+        "id": "subtraction_inverse_relations_b",
+        "domain_term_id": "umkehroperationen",
+        "scope_tag": "grade_2_path",
+        "source_fact": {
+          "statement": "Beschreiben von Zusammenhaengen zwischen den vier Grundrechenoperationen ... (z. B. Umkehroperationen).",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/themen-und-inhalte",
+            "source_id": "MA-I1-4-B",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Link subtraction and addition through inverse relations."
+      },
+      {
+        "id": "subtraction_fact_families_b",
+        "domain_term_id": "aufgabenfamilien",
+        "scope_tag": "grade_2_path",
+        "source_fact": {
+          "statement": "Beschreiben von Aufgabenfamilien (z. B. 5 + 3 = 8 | 3 + 5 = 8 | 8 - 5 = 3 | 8 - 3 = 5).",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/themen-und-inhalte",
+            "source_id": "MA-I1-5-B",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Use connected equation families for fluency and understanding."
+      },
+      {
+        "id": "subtraction_stepwise_over_10_b",
+        "domain_term_id": "rechenverfahren_und_strategien_anwenden",
+        "scope_tag": "grade_2_path",
+        "source_fact": {
+          "statement": "Nutzen ... operativer Strategien fuer das Kopfrechnen: schrittweises Rechnen bei der Addition und Subtraktion ueber 10 hinaus.",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/themen-und-inhalte",
+            "source_id": "MA-I1-5-B",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Include subtraction strategy work beyond ten, not only recall."
+      },
+      {
+        "id": "subtraction_analogies_b",
+        "domain_term_id": "rechenverfahren_und_strategien_anwenden",
+        "scope_tag": "grade_2_path",
+        "source_fact": {
+          "statement": "Analogien bei gleichartigen Additionen und Subtraktionen.",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/themen-und-inhalte",
+            "source_id": "MA-I1-5-B",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Leverage analogical transfer across subtraction item types."
+      },
+      {
+        "id": "subtraction_control_with_inverse_b",
+        "domain_term_id": "umkehroperationen",
+        "scope_tag": "grade_2_path",
+        "source_fact": {
+          "statement": "Durchfuehren von Kontrollrechnungen unter Nutzung der Umkehroperationen.",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/themen-und-inhalte",
+            "source_id": "MA-I1-5-B",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Require inverse-check steps in subtraction routines."
+      }
+    ]
+  },
+  "standards_index": {
+    "grade2_relevant": [
+      {
+        "standard_uid": 1743,
+        "scope_tag": "grade_2_path",
+        "title_path": "Zahlen und Operationen / Operationsvorstellungen entwickeln / Stufe A",
+        "source_fact": {
+          "statement": "additive und subtraktive Handlungen ausfuehren.",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/einzelansicht-der-standards/1743",
+            "source_id": "1743",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Prerequisite for grade-2 subtraction path."
+      },
+      {
+        "standard_uid": 1744,
+        "scope_tag": "grade_2_path",
+        "title_path": "Zahlen und Operationen / Operationsvorstellungen entwickeln / Stufe B",
+        "source_fact": {
+          "statement": "Zusammenhaenge zwischen den vier Grundrechenoperationen im Zahlenraum der natuerlichen Zahlen bis 100 beschreiben.",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/einzelansicht-der-standards/1744",
+            "source_id": "1744",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Core grade-2 subtraction relation standard."
+      },
+      {
+        "standard_uid": 1751,
+        "scope_tag": "grade_2_path",
+        "title_path": "Zahlen und Operationen / Rechenverfahren und -strategien anwenden / Stufe B",
+        "source_fact": {
+          "statement": "Rechenstrategien und Gesetze der Grundrechenoperationen im Bereich der natuerlichen Zahlen bis 100 situationsangemessen nutzen.",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/einzelansicht-der-standards/1751",
+            "source_id": "1751",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Core strategy standard for grade-2 subtraction execution."
+      },
+      {
+        "standard_uid": 1735,
+        "scope_tag": "grade_2_path",
+        "title_path": "Zahlen und Operationen / Zahlbeziehungen beschreiben / Stufe B",
+        "source_fact": {
+          "statement": "Zahlbeziehungen der natuerlichen Zahlen bis 100 beschreiben.",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/einzelansicht-der-standards/1735",
+            "source_id": "1735",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Supports subtraction comparison and difference reasoning."
+      },
+      {
+        "standard_uid": 1745,
+        "scope_tag": "poc_only",
+        "title_path": "Zahlen und Operationen / Operationsvorstellungen entwickeln / Stufe C",
+        "source_fact": {
+          "statement": "C-level extension in A/B/C band from standards index.",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/einzelansicht-der-standards/1745",
+            "source_id": "1745",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Bridge to next level; not core grade-2 minimum."
+      },
+      {
+        "standard_uid": 1752,
+        "scope_tag": "poc_only",
+        "title_path": "Zahlen und Operationen / Rechenverfahren und -strategien anwenden / Stufe C",
+        "source_fact": {
+          "statement": "C-level extension in A/B/C band from standards index.",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/einzelansicht-der-standards/1752",
+            "source_id": "1752",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Bridge to next level; not core grade-2 minimum."
+      }
+    ]
+  },
+  "supporting_references": {
+    "rlp_official_files": [
+      {
+        "id": "rlp_fachteil_c_mathematik_2023",
+        "scope_tag": "global",
+        "source_fact": {
+          "statement": "Fachteil C Mathematik, amtliche Fassung 2023.",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/rahmenlehrplaene/Rahmenlehrplanprojekt/amtliche_Fassung/Teil_C_Mathematik_2015_10_13_Ma_14.08.2023_Berlin_23_11.pdf",
+            "source_id": "Teil_C_Mathematik_2015_10_13_Ma_14.08.2023_Berlin_23_11.pdf",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Primary official source file for detailed curriculum wording."
+      },
+      {
+        "id": "rlp_lesehilfe_mathematik_2023",
+        "scope_tag": "global",
+        "source_fact": {
+          "statement": "Lesehilfe zum Fachteil Mathematik (2023).",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/rahmenlehrplaene/Rahmenlehrplanprojekt/amtliche_Fassung/getrennt_2023/RLP_Mathe_2023_Lesehilfe_2023-06-27.pdf",
+            "source_id": "RLP_Mathe_2023_Lesehilfe_2023-06-27.pdf",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Support file for interpreting core curriculum sections."
+      },
+      {
+        "id": "rlp_material_lernaufgabe_geld",
+        "scope_tag": "grade_2_path",
+        "source_fact": {
+          "statement": "Lernaufgabe: Ich werde fit als Verkaeuferin/Verkaeufer - Wir bereiten einen Verkaufsstand fuer unser Schulfest vor (Niveaustufen B, C, E).",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/rlp-online/Teil_C/Mathematik/Materialien/Lernaufgabe_Mathematik_GS_Geld.docx",
+            "source_id": "Lernaufgabe_Mathematik_GS_Geld.docx",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Potential contextual subtraction and money application material in Grade 2 path."
+      }
+    ],
+    "iqb_secondary_references": [
+      {
+        "id": "iqb_primar_aufgaben_hub",
+        "scope_tag": "global",
+        "source_fact": {
+          "statement": "Primarstufe task collection hub with links to VERA-3 and Lernaufgaben Mathematik.",
+          "provenance": {
+            "source_url": "https://www.iqb.hu-berlin.de/de/schule/aufgaben/primar/",
+            "source_id": "primarstufe_aufgaben_hub",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Secondary benchmark source for task metadata and examples."
+      },
+      {
+        "id": "iqb_vera3_mathematik",
+        "scope_tag": "grade_2_path",
+        "source_fact": {
+          "statement": "VERA-3 Mathematik provides filtered tasks with Leitidee and competency metadata, including Zahlen und Operationen.",
+          "provenance": {
+            "source_url": "https://www.iqb.hu-berlin.de/de/schule/aufgaben/primar/vera-3-mathematik/",
+            "source_id": "vera3_mathematik_page",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Useful for subtraction-relevant task alignment checks in upper primary diagnostics."
+      },
+      {
+        "id": "iqb_vera3_zahlen_operationen_bundle",
+        "scope_tag": "grade_2_path",
+        "source_fact": {
+          "statement": "Zahlen, Operationen: alle Aufgaben, Loesungen, Kommentierungen (zip).",
+          "provenance": {
+            "source_url": "https://www.iqb.hu-berlin.de/media/exercise_group_files/VERA-3_Mathematik/Zahlen_Operationen_alle_Aufgaben_Loesungen_Kommentierungen.zip",
+            "source_id": "Zahlen_Operationen_alle_Aufgaben_Loesungen_Kommentierungen.zip",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Secondary item bank bundle for number and operation tasks."
+      },
+      {
+        "id": "iqb_lernaufgaben_mathematik_primar",
+        "scope_tag": "grade_2_path",
+        "source_fact": {
+          "statement": "Lernaufgaben Mathematik Primar includes filterable tasks by Jahrgangsstufe, Inhaltsbezogene Kompetenz, Prozessbezogene Kompetenz, and Anforderungsbereich.",
+          "provenance": {
+            "source_url": "https://www.iqb.hu-berlin.de/de/schule/aufgaben/primar/lernaufgaben-mathematik-primar/",
+            "source_id": "lernaufgaben_mathematik_primar_page",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Secondary examples for Grade 2 subtraction-adjacent task design and metadata mapping."
+      },
+      {
+        "id": "iqb_lernaufgabe_buendeln_entbuendeln",
+        "scope_tag": "grade_2_path",
+        "source_fact": {
+          "statement": "Buendeln und Entbuendeln (Jahrgangsstufe 2, 3, 4; Inhaltsbezogene Kompetenz: Zahl und Operation).",
+          "provenance": {
+            "source_url": "https://www.iqb.hu-berlin.de/media/exercise_files/Lernaufgaben_Mathematik_Primar/BuendelnEntbuendeln_Aufgabe.pdf",
+            "source_id": "BuendelnEntbuendeln_Aufgabe.pdf",
+            "retrieved_at": "2026-05-23T12:51:36Z"
+          }
+        },
+        "app_interpretation": "Secondary Grade 2 number-operation material related to decomposition strategies used in subtraction."
+      }
+    ],
+    "exercise_references": [
+      {
+        "id": "rlp_foerder_gs_b_gv",
+        "scope_tag": "grade_2_path",
+        "source_fact": {
+          "statement": "Foerderaufgaben Grundschule Niveaustufe B: Grundvorstellungen zu Rechenoperationen aufbauen.",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/rlp-online/Teil_C/Mathematik/Materialien/Materialien_zum_Themenfeld1_Zahlen_und_Operationen/Foerderung/Foerderung_Grundschule/Foerderung_B/Ma_MzDuF_L1_ZO_Foerder_GS_B_GV_2023-05.pdf",
+            "source_id": "Ma_MzDuF_L1_ZO_Foerder_GS_B_GV_2023-05.pdf",
+            "retrieved_at": "2026-05-24T07:31:36Z"
+          }
+        },
+        "app_interpretation": "Maps to subtraction_operation_models_b and standard 1744 in Grade 2 subtraction path."
+      },
+      {
+        "id": "rlp_foerder_gs_b_pm",
+        "scope_tag": "grade_2_path",
+        "source_fact": {
+          "statement": "Foerderaufgaben Grundschule Niveaustufe B: Tragfaehige Strategien zur Addition und Subtraktion nutzen.",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/rlp-online/Teil_C/Mathematik/Materialien/Materialien_zum_Themenfeld1_Zahlen_und_Operationen/Foerderung/Foerderung_Grundschule/Foerderung_B/Ma_MzDuF_L1_ZO_Foerder_GS_B_PM_2023-05.pdf",
+            "source_id": "Ma_MzDuF_L1_ZO_Foerder_GS_B_PM_2023-05.pdf",
+            "retrieved_at": "2026-05-24T07:31:36Z"
+          }
+        },
+        "app_interpretation": "Maps to subtraction_stepwise_over_10_b and subtraction_analogies_b with strategy focus (standard 1751)."
+      },
+      {
+        "id": "rlp_foerder_gs_b_zz",
+        "scope_tag": "grade_2_path",
+        "source_fact": {
+          "statement": "Foerderaufgaben Grundschule Niveaustufe B: Zahlzerlegungen sowie Addition und Subtraktion im Zahlenraum bis 10 automatisieren.",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/rlp-online/Teil_C/Mathematik/Materialien/Materialien_zum_Themenfeld1_Zahlen_und_Operationen/Foerderung/Foerderung_Grundschule/Foerderung_B/Ma_MzDuF_L1_ZO_Foerder_GS_B_ZZ_2023-05.pdf",
+            "source_id": "Ma_MzDuF_L1_ZO_Foerder_GS_B_ZZ_2023-05.pdf",
+            "retrieved_at": "2026-05-24T07:31:36Z"
+          }
+        },
+        "app_interpretation": "Supports subtraction_fact_families_b and foundational fluency tasks in A/B progression."
+      },
+      {
+        "id": "rlp_foerder_gs_c_pm",
+        "scope_tag": "poc_only",
+        "source_fact": {
+          "statement": "Foerderaufgaben Grundschule Niveaustufe C: Tragfaehige Strategien und Rechenregeln zur Addition und Subtraktion nutzen.",
+          "provenance": {
+            "source_url": "https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/rlp-online/Teil_C/Mathematik/Materialien/Materialien_zum_Themenfeld1_Zahlen_und_Operationen/Foerderung/Foerderung_Grundschule/Foerderung_C/Ma_MzDuF_L1_ZO_Foerder_GS_C_PM_2023-05.pdf",
+            "source_id": "Ma_MzDuF_L1_ZO_Foerder_GS_C_PM_2023-05.pdf",
+            "retrieved_at": "2026-05-24T07:31:36Z"
+          }
+        },
+        "app_interpretation": "C-level bridge material for advanced Grade 2 learners (standards 1745 and 1752 bridge)."
+      },
+      {
+        "id": "pikas_1minus1_komplett",
+        "scope_tag": "grade_2_path",
+        "source_fact": {
+          "statement": "PIKAS complete 1-1 subtraction card set for practice in early primary grades.",
+          "provenance": {
+            "source_url": "https://pikas.dzlm.de/pikasfiles/uploads/upload/Material/Haus_3_-_Umgang_mit_Rechenschwierigkeiten/UM/1-1/1-1_komplett.pdf",
+            "source_id": "1-1_komplett.pdf",
+            "retrieved_at": "2026-05-24T07:31:36Z"
+          }
+        },
+        "app_interpretation": "Useful for subtraction_fact_families_b and inverse-control routines in low-threshold drill formats."
+      },
+      {
+        "id": "pikas_geschickte_subtraktion_standortbestimmung",
+        "scope_tag": "grade_2_path",
+        "source_fact": {
+          "statement": "PIKAS diagnostic worksheet Geschickte Subtraktion with strategy-oriented subtraction tasks.",
+          "provenance": {
+            "source_url": "https://pikas.dzlm.de/pikasfiles/uploads/upload/Material/diagnose_und_foerderung/klasse1/dif_zr20_geschicktesubtraktion_sob.pdf",
+            "source_id": "dif_zr20_geschicktesubtraktion_sob.pdf",
+            "retrieved_at": "2026-05-24T07:31:36Z"
+          }
+        },
+        "app_interpretation": "Supports misconception tagging for analogies, neighbor tasks, and inverse strategies in adaptive routing."
+      },
+      {
+        "id": "pikas_subtraktion_im_kopf_standortbestimmung",
+        "scope_tag": "grade_2_path",
+        "source_fact": {
+          "statement": "PIKAS diagnostic worksheet Subtraktion im Kopf for mental subtraction strategies.",
+          "provenance": {
+            "source_url": "https://pikas.dzlm.de/pikasfiles/uploads/upload/Material/diagnose_und_foerderung/klasse1/dif_zr20_subtraktionimkopf_sob.pdf",
+            "source_id": "dif_zr20_subtraktionimkopf_sob.pdf",
+            "retrieved_at": "2026-05-24T07:31:36Z"
+          }
+        },
+        "app_interpretation": "Supports subtraction_stepwise_over_10_b and subtraction_control_with_inverse_b strategy diagnostics."
+      }
+    ]
+  },
+  "coverage_check": {
+    "high_level_complete": {
+      "leitideen_all_included": true,
+      "niveaustufen_all_included": true
+    },
+    "grade2_subtraction_scoped": {
+      "focused_leitidee": "leitidee_zahlen_und_operationen",
+      "focused_themen": [
+        "operationsvorstellungen_entwickeln",
+        "rechenverfahren_und_strategien_anwenden"
+      ],
+      "focused_niveaustufen": [
+        "niveaustufe_a",
+        "niveaustufe_b",
+        "niveaustufe_c"
+      ]
+    }
+  }
+}

@@ -354,6 +354,27 @@ For Berlin specifically, add:
 | S9 | KMK "Bildung in der digitalen Welt" — kmk.org | Web | 2016 strategy; page updated 2025/2026 | High — official KMK policy page | Describes digital competence strategy, Digitalpakt 1.0 and 2.0, SMART, TBA, AIS/telli, SODIX/MUNDO |
 | S10 | Bildungsserver Berlin-Brandenburg, *Entwicklung mathematischer Basiskompetenzen* | Web | 2021-plus resource portal snapshot | High — official state support portal; secondary but authoritative | Shows how Berlin-Brandenburg operationalizes diagnosis and support for core mathematical competencies |
 
+### 6.1 Durable Source and Material Index (for exercise harvesting)
+
+This index captures known websites and concrete material types so source knowledge remains available even if `docs/session.md` is removed.
+
+| Source | Scope for this project | What data/materials are available | Notes for Grade 2 subtraction use |
+|---|---|---|---|
+| `https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik` | Official RLP subject hub | Entry point to *Kompetenzentwicklung*, *Kompetenzen und Standards*, *Themen und Inhalte*, and *Materialien* | Use as canonical navigation root for Berlin-Brandenburg math sources |
+| `https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/themen-und-inhalte` | Official curriculum content model | Leitideen tables, Niveaustufen A-H, standards links, topic statements (including subtraction strategy statements) | Primary fact source for concept and standards mapping |
+| `https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/kompetenzen-und-standards` | Official competence model | Process competences and level framing (A-H) | Primary fact source for competence tagging and level targets |
+| `https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/einzelansicht-der-standards/<id>` | Official per-standard detail | Standard-level wording by UID (e.g., 1743, 1744, 1751, 1735) | Canonical wording for per-task standard binding |
+| `https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/materialien-zur-diagnose-und-foerderung-im-mathematikunterricht-leitidee-zahlen-und-operationen` | Official diagnostic/support materials | Direct links to diagnosis and Foerderaufgaben PDFs for Leitidee 1, including A/B/C tracks and subtraction-relevant strategy sheets | Best official source for school-ready exercise assets aligned to Berlin terminology |
+| `https://www.iqb.hu-berlin.de/de/schule/aufgaben/primar/` | Official IQB primar task hub | Links to VERA-3 and Lernaufgaben collections | Secondary benchmark source for task metadata and examples |
+| `https://www.iqb.hu-berlin.de/de/schule/aufgaben/primar/vera-3-mathematik/` | Official VERA-3 math collection | Filterable tasks by Leitidee and competence | Useful for diagnostic-style item references near grade 3 bridge |
+| `https://www.iqb.hu-berlin.de/de/schule/aufgaben/primar/lernaufgaben-mathematik-primar/` | Official Lernaufgaben collection | Filterable tasks by Jahrgangsstufe, inhaltsbezogene and prozessbezogene Kompetenzen, and Anforderungsbereich | Useful secondary source for grade 2/3 subtraction-adjacent examples |
+| `https://www.iqb.hu-berlin.de/media/exercise_group_files/VERA-3_Mathematik/Zahlen_Operationen_alle_Aufgaben_Loesungen_Kommentierungen.zip` | IQB downloadable bundle | Task set bundle with solutions and commentaries for Zahlen und Operationen | Downloadable benchmark archive for item design checks |
+| `https://www.iqb.hu-berlin.de/media/exercise_files/Lernaufgaben_Mathematik_Primar/BuendelnEntbuendeln_Aufgabe.pdf` | IQB downloadable single task | Lernaufgabe PDF for Bundeln/Entbuendeln (Jahrgangsstufe 2-4) | Useful for decomposition/place-value strategy linkage to subtraction |
+| `https://pikas.dzlm.de/unterricht/zahlen-und-operationen/zahlraum-bis-20/sicher-im-1-1` | Didactic exercise repository (DZLM/PIKAS) | Subtraction-focused 1-1 materials, diagnostic sheets, and linked PDF sets | Practical exercise source for low-threshold subtraction practice and diagnostics |
+| `https://pikas.dzlm.de/pikasfiles/uploads/upload/Material/Haus_3_-_Umgang_mit_Rechenschwierigkeiten/UM/1-1/1-1_komplett.pdf` | PIKAS direct file | Complete 1-1 subtraction card set PDF | Good fit for task-family seeds around fact fluency and inverse relations |
+| `https://pikas.dzlm.de/pikasfiles/uploads/upload/Material/diagnose_und_foerderung/klasse1/dif_zr20_geschicktesubtraktion_sob.pdf` | PIKAS direct file | Diagnostic worksheet "Geschickte Subtraktion" | Useful for misconception tagging and adaptive routing patterns |
+| `https://pikas.dzlm.de/pikasfiles/uploads/upload/Material/diagnose_und_foerderung/klasse1/dif_zr20_subtraktionimkopf_sob.pdf` | PIKAS direct file | Diagnostic worksheet "Subtraktion im Kopf" | Useful for mental strategy diagnosis and scaffold design |
+
 ---
 
 ## 7. Conflicts & Open Questions

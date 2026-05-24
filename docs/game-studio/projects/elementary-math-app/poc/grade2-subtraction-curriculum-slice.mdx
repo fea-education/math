@@ -1,0 +1,60 @@
+---
+title: Grade2 Subtraction Slice Schema
+status: draft
+updated_at: 2026-05-23
+---
+
+import JsonTree from '@components/JsonTree.astro';
+import curriculumSlice from '@workspace-docs/game-studio/projects/elementary-math-app/poc/grade2_subtraction_curriculum_slice.json';
+
+# Grade2 Subtraction Slice Schema
+
+## Purpose
+
+Document the structure and field semantics of `grade2_subtraction_curriculum_slice.json`.
+
+## Core Structure
+
+- `meta`: file identity, scope, source priority, modeling conventions.
+- `domain_language_binding`: required term IDs from `docs/domain-language/index.yaml`.
+- `taxonomy`: high-level complete fields (`leitideen`, `niveaustufen`) with provenance.
+- `grade_mapping`: grade-level interpretation facts tied to source statements.
+- `process_competences_abc`: process competence layer for A/B/C context.
+- `grade2_subtraction_path`: concept and skill nodes scoped to Grade 2 subtraction.
+- `standards_index`: referenced standard entries and extracted statements.
+- `supporting_references`: official RLP files plus IQB secondary references.
+- `coverage_check`: explicit completeness assertions for high-level and scoped layers.
+
+## Fact Model
+
+Every harvested fact uses:
+
+- `source_fact.statement`
+- `source_fact.provenance.source_url`
+- `source_fact.provenance.source_id`
+- `source_fact.provenance.retrieved_at`
+
+Interpretive additions use `app_interpretation` and remain separate from `source_fact`.
+
+## Scope Tags
+
+- `global`: exhaustive top-level taxonomy and cross-cutting references.
+- `grade_2_path`: directly relevant Grade 2 subtraction nodes/facts.
+- `poc_only`: bridge or supporting nodes retained for POC completeness.
+
+## ID Conventions
+
+- Stable machine IDs use `snake_case`.
+- Domain term references use `domain_term_id` values from `docs/domain-language/index.yaml`.
+- Standard references use numeric `standard_uid` where available.
+
+## Unknown Handling
+
+- If source does not expose a stable identifier, use `source_id: "unknown"`.
+- Do not leave required provenance fields blank.
+
+## Interactive Tree
+
+Expand and collapse nodes to inspect the full JSON structure.
+
+<JsonTree data={curriculumSlice} rootLabel="grade2_subtraction_curriculum_slice" />
